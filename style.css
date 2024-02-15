@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background: none;
+}
+
+/*------ banner section*/
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #000, rgb(51, 50, 50));
+    opacity: 0.7; 
+  }
+  
+  .image-overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+  }
+  .image-overlay-content span{
+    color: rgb(18, 218, 218);
+    font-size: 0.8rem;
+  }
+  
+  .image-overlay-content h6{
+    font-size: 0.8rem;
+  }
+  .image-overlay-content h1{
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  /*------ hero section*/
+
+  .hero{
+     width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-top: 70px;
+    text-align:center;
+    justify-content:center;
+  }
+  .btn{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid rgb(18, 218, 218) ; 
+    border-radius: 10px;
+    color:#000;
+    align-items: center;
+  }
+  .hero h3{
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  /*------ or team section*/
+  .container h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+.container p{
+    padding-top: 20px;
+    font-size: 0.8rem;
+}
+  /*------ getting in touch*/
+  .text-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+  }
+  .text-container h6{
+    font-size: 0.7rem;
+  }
+.text-container h1{
+    font-size: 2.3rem;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-container p{
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
+.text-container .btn{
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    height: 40px;
+    padding: 10px;
+}
+  /*------ hero section*/
+  
+  
+.profile-card{
+	max-width:370px;
+	width:100%;
+	background:#fff;
+	border-radius: 24px;
+	padding:25px;
+	box-shadow:0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.image{
+	position:relative;
+	height:150px;
+	width:150px;
+	border-radius: 50%;
+	background-color: aqua;
+	padding:3px;
+	margin-bottom:10px;
+}
+.image .profile-img{
+	height:100%;
+	width:100%;
+	object-fit: cover;
+	border-radius:50%;
+	border:3px solid #fff;
+
+}
+.profile-card .text-data{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.text-data .name{
+    font-size: 22px;
+    font-weight:500;
+}
+
+.text-data .job{
+    font-size: 15px;
+    font-weight:400;
+}
+.profile-card .media-button{
+	display:flex;
+	align-items:center;
+}
+.media-button .link{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:#fff;
+	height:34px;
+	width:34px;
+	border-radius:50%;
+	margin:0 8px;
+	background-color:#4070;
+	text-decoration:none;
+}
+.profile-card .button{
+	display:inline-block;
+	align-items: center;
+	margin-top:25px;
+}
+.button{
+	width:130px;
+	background-color:#4287f5;
+	align-items: center;
+	border-radius:15px;
+	font-size:10px;
+	color:#fff;
+}
+.analytic{
+	display:flex;
+	align-items: center;
+	margin-top:25px;
+}
+.analytic .data{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 10px;
+	border-right:2px solid#e7e7e7;
+	margin-left:25px;
+}
+ .data:last-child{
+ 	border-right:none;
+ }
+   /*------ contact*/
+   .main-text{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+   }
+   .main-text h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+   }
+  .main-text span{
+    color: aqua;
+  }
+ .main-text p{
+    color: #fff;
+    text-align: center;
+ }
+ .main-text .btn{
+    background-color: rgb(11, 214, 214);
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    width: 170px;
+
+ }
+ .text-col{
+    background-color: #e6e4e4;
+    text-align: center;
+    color: #000;
+    padding-bottom: 25px;
+    padding-top: 25px;
+ }
+ .text-col h5{
+   padding-top: 15px;
+   font-weight: 600;
+   font-size: 0.8rem;
+ }
+ 
+ .text-col p{
+    padding-top: 15px;
+    font-size: 0.8rem;
+    color: #000;
+  }
+ .content h3{
+    text-align:start;
+    font-size: 1.4rem;
+    color: #fff;
+ }
+ .content p{
+    font-size: 2.3rem;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
